@@ -69,38 +69,6 @@ body{
 
 }
 
-.nav{
-    display: flex;
-    align-items: center;
-}
-
-.nav__logo{
-    width: 100px;
-}
-
-.nav__img{
-    width: 100%;
-    display: block;
-}
-
-.nav__link{
-    display: inline-block;
-    color: rgb(12, 186, 230);
-    text-decoration: none;
-    margin-left: .8em;
-}
-
-.nav__link:first-of-type{
-    margin-left: auto;
-}
-
-.nav h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2.5em;
-    position: relative;
-    left: 1rem;
-    color:#fff;
-}
 
 .hero__main{
     color: #fff;
@@ -309,69 +277,6 @@ body{
     font-weight: bold;
 }
 
-
-.footer{
-    background-color: var(--blue-footer);
-    color: #fff;
-}
-
-.footer__items{
-    display: grid;
-    gap: 1em;   
-}
-
-.footer__logo{
-    width: 150px;
-    display: block;
-    margin-bottom: 2em;
-}
-
-.footer__contact{
-    display: flex;
-    align-items: flex-start;
-    gap: 5px;
-}
-
-.footer__contact--second{
-    margin-bottom: 1em;
-}
-
-
-.footer__icon{
-    margin-top: 3px;
-}
-
-.footer__nav{
-    margin-top: 2.5em;
-    display: grid;
-    gap: .8em;
-}
-
-.footer__link{
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer__social{
-    margin-top: 2em;
-   margin: 0 auto;
-}
-
-.footer__media{
-    width: 40px;
-    height: 40px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.footer__media--last{
-    margin-right: 0;
-}
 
 @media (min-width:740px){
     .hero__title{
